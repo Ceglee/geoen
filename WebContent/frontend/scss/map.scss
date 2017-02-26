@@ -1,0 +1,13 @@
+$main-color: red;
+$max: 100%;
+
+body {
+	font-color: $main-color;
+	width: $max;
+	height: $max;
+}
+
+.map {
+	with: $max;
+	height: $max;
+}
