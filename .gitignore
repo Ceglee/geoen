@@ -4,3 +4,5 @@
 /WebContent/frontend/css/
 .settings/
 .springBeans
+.project
+.classpath
