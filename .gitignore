@@ -1,2 +1,5 @@
 /build/
 /target/
+/WebContent/frontend/node_modules/
+.settings/
+.springBeans
