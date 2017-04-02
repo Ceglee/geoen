@@ -5,9 +5,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 						http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
 	
-	<mvc:resources location="/frontend/js/" mapping="/js/**" />	
-	<mvc:resources location="/frontend/css/" mapping="/css/**" />
-	<mvc:resources location="/frontend/vendor/" mapping="/vendor/**" />					
-	<mvc:resources location="/frontend/html/map.html" mapping="/map.html" />
+	<mvc:resources location="/frontend/build/js/resolved/" mapping="/js/**" />	
+	<mvc:resources location="/frontend/build/css/" mapping="/css/**" />
+	<mvc:resources location="/frontend/build/vendor/" mapping="/vendor/**" />					
+	<mvc:resources location="/frontend/html/main.html" mapping="/main.html" />
 
 </beans>

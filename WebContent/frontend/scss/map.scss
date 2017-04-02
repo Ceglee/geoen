@@ -16,4 +16,5 @@ html, body {
 
 #map {
 	@include max-size();
+	position: absolute;
 }
